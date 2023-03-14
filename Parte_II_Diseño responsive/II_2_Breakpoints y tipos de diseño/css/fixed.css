@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 10px solid black;
+  margin: 20px auto;
+  overflow-y: auto;
+  width: 1000px;
+}
+
+img {
+  width: 100%;
+}

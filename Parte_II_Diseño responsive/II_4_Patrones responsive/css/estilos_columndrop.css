@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.container > div {
+  height: 300px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+@media screen and (min-width: 576px) {
+  .red {
+    float: left;
+    width: 50%;
+  }
+
+  .blue {
+    float: left;
+    width: 50%;
+  }
+
+  .yellow {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .red {
+    float: left;
+    width: 20%;
+  }
+
+  .blue {
+    float: left;
+    width: 50%;
+  }
+
+  .yellow {
+    float: left;
+    width: 30%;
+  }
+}

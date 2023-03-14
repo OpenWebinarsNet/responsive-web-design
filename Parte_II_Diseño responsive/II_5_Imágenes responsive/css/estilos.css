@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+img {
+  width: 100%;
+}
+
+img#person {
+  height: 300px;
+}
